@@ -14,7 +14,7 @@ St.header('Choose What Players You Would Like to See Here:')
 old=pd.read_csv('Oldcontracts1.csv')
 new=pd.read_csv('FA Preds.csv')
 old['Offseason Year'] = old['Offseason Year'].astype(str)
-model=pd.read_csv(r'C:\Users\Matt Tierney\OneDrive - Bentley University\Sports Analytics Projects\.SalaryModel\Model Results.csv')
+model=pd.read_csv('Model Results.csv')
 #Selection
 c1=St.selectbox('Would you like to view predicted contracts for the 2024 offseason or view predicted historical contracts?',("2024 Offseason Contracts","Historical Contracts"))
 if c1 == "2024 Offseason Contracts":
