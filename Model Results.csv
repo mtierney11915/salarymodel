@@ -1,0 +1,5 @@
+Model,MAE (Test Data),MAE (All Data),RMSE (Test Data),RMSE (All Data)
+Hitter AAV (Random Forest)," $3,372,370.86 "," $2,058,702.70 "," $4,112,556.95 "," $2,989,715.36 "
+Hitter Years (XG Boost), 1.42 ,0.77,2.08,1.22
+Pitcher AAV (Random Forest)," $4,774,940.00 "," $2,058,047.46 "," $9,413,839.75 "," $3,713,076.02 "
+Pitcher Years (Poisson), 0.82 ,0.72,1.10,1.06
