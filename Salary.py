@@ -11,8 +11,8 @@ St.write('This application is designed to be an interactive supplemental compone
 St.divider()
 St.header('Choose What Players You Would Like to See Here:')
 #Data
-old=pd.read_csv(r'C:\Users\Matt Tierney\OneDrive - Bentley University\Sports Analytics Projects\.SalaryModel\Oldcontracts1.csv')
-new=pd.read_csv(r'C:\Users\Matt Tierney\OneDrive - Bentley University\Sports Analytics Projects\.SalaryModel\FA Preds.csv')
+old=pd.read_csv('Oldcontracts1.csv')
+new=pd.read_csv('FA Preds.csv')
 old['Offseason Year'] = old['Offseason Year'].astype(str)
 model=pd.read_csv(r'C:\Users\Matt Tierney\OneDrive - Bentley University\Sports Analytics Projects\.SalaryModel\Model Results.csv')
 #Selection
